@@ -146,8 +146,8 @@ export default class CreateSales extends Component {
                         </Form>
                     </Modal.Content>
                     <ModalActions>
-                        <Button color='black' onClick={this.showPopup}>cancel</Button>                       
-                        <Button color='green' icon labelPosition="right" onClick={this.handleCreate}>create<Icon name='checkmark' /></Button>
+                        <Button color='black' onClick={this.showPopup}>Cancel</Button>                       
+                        <Button color='green' icon labelPosition="right" onClick={this.handleCreate}>Create<Icon name='checkmark' /></Button>
                     </ModalActions>
                 </Modal>
             </div>
