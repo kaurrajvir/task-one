@@ -11,7 +11,7 @@ export class Store extends Component {
         super(props);
         this.state = {        
             data: [],       
-            totalItems: 10,
+            totalItems: 5,
             currentPage: 1,
             sort: {
                 column: null,
