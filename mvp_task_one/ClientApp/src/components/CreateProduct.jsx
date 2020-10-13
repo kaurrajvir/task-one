@@ -51,8 +51,8 @@ export class CreateProduct extends Component {
                                 onChange={(e) => { this.setState({ price: e.target.value }) }} />
                         </Form>
                         <ModalActions>                            
-                            <Button color='black' onClick={this.showPopup}>cancel</Button>                            
-                            <Button color='green' icon labelPosition="right" onClick={this.handleCreate}>create
+                            <Button color='black' onClick={this.showPopup}>Cancel</Button>                            
+                            <Button color='green' icon labelPosition="right" onClick={this.handleCreate}>Create
                             <Icon name='checkmark' /> </Button>
                         </ModalActions>
                     </Modal.Content>
