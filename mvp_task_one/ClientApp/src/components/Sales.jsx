@@ -12,7 +12,7 @@ export class Sales extends Component {
     super();
     this.state = {
       data: [],
-      totalItems: 10,
+      totalItems: 5,
       currentPage: 1,
       id: 0,
       sort: {
