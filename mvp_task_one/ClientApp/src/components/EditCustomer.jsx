@@ -33,7 +33,7 @@ export class EditCustomer extends Component {
   render() {
     return (
         <div>      
-            <Button color='yellow' onClick={this.showPopup}><Icon name='edit'/>Edit</Button>
+            <Button color='yellow' onClick={this.showPopup}><Icon name='edit'/>EDIT</Button>
             <Modal id='popup' open={this.state.open} size='tiny'>
                 <Modal.Header>Edit Customer</Modal.Header>
                 <Modal.Content>
@@ -50,8 +50,8 @@ export class EditCustomer extends Component {
                     onChange={(e) => { this.setState({ address: e.target.value }) }} />
                 </Form>
                 <ModalActions>
-                    <Button color='black' onClick={this.showPopup}>cancel</Button>            
-                    <Button color='green' icon labelPosition="right" onClick={this.handleEdit}>edit
+                    <Button color='black' onClick={this.showPopup}>Cancel</Button>            
+                    <Button color='green' icon labelPosition="right" onClick={this.handleEdit}>Edit
                     <Icon name='checkmark' /> </Button>
                 </ModalActions>
                 </Modal.Content>
