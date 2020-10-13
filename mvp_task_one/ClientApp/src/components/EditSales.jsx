@@ -110,7 +110,7 @@ export default class EditSales extends Component {
     render() {
         return (
             <div>
-                <Button color='yellow' onClick={this.showPopup}><Icon name='edit' />Edit </Button>
+                <Button color='yellow' onClick={this.showPopup}><Icon name='edit' />EDIT</Button>
                 <Modal id='popup' open={this.state.open} size='tiny'>
                     <Modal.Header>Edit Sales</Modal.Header>
                     <Modal.Content>
@@ -150,8 +150,8 @@ export default class EditSales extends Component {
                         </Form>
                     </Modal.Content>
                     <ModalActions>
-                        <Button color='black' onClick={this.showPopup}>cancel</Button>
-                        <Button color='green' icon labelPosition="right" onClick={this.handleEdit}>edit<Icon name='checkmark' /></Button>
+                        <Button color='black' onClick={this.showPopup}>Cancel</Button>
+                        <Button color='green' icon labelPosition="right" onClick={this.handleEdit}>Edit<Icon name='checkmark' /></Button>
                     </ModalActions>
                 </Modal>
             </div>
