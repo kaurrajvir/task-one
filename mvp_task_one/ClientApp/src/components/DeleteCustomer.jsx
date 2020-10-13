@@ -27,15 +27,15 @@ export class DeleteCustomer extends Component {
     render() {
         return (
             <div>               
-                <Button color='red' onClick={this.showPopup}><Icon name='trash alternate outline' /> Delete</Button>
+                <Button color='red' onClick={this.showPopup}><Icon name='trash alternate outline' /> DELETE</Button>
                 <Modal id='popup'
                     open={this.state.open}
                     size='tiny'>
                     <Modal.Header>Delete Customer</Modal.Header>
                     <Modal.Content><h4 class='delete'> Are you sure?</h4>
                         <ModalActions>
-                            <Button color='black' onClick={this.showPopup}>cancel</Button>                           
-                            <Button color='red' icon labelPosition="right" onClick={this.handleDelete}>delete <Icon name='remove' /></Button>
+                            <Button color='black' onClick={this.showPopup}>Cancel</Button>                           
+                            <Button color='red' icon labelPosition="right" onClick={this.handleDelete}>Delete <Icon name='remove' /></Button>
                         </ModalActions>
                     </Modal.Content>
                 </Modal>
